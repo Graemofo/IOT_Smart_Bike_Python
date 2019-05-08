@@ -17,7 +17,7 @@ def test():
     GPIO.output(fanPower,GPIO.HIGH)
     GPIO.output(fanControl,GPIO.HIGH)
     print("Fan Power On")
-    sleep(20)
+    sleep(7)
     GPIO.output(fanPower,GPIO.LOW)
     GPIO.output(fanControl,GPIO.LOW)
     print("Fan Power Off")

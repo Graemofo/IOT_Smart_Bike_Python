@@ -1,3 +1,5 @@
+#Spint the servo 180 degrees right
+
 import RPi.GPIO as GPIO
 import time
 
@@ -12,9 +14,6 @@ p.start(2.5) # Initialization
 p.ChangeDutyCycle(5)
 time.sleep(2)
 
-#one rotation anti-clockwise.
-p.ChangeDutyCycle(7.5)
-time.sleep(2)
 #stop servo and cleanup pins
 p.stop()
 GPIO.cleanup()
